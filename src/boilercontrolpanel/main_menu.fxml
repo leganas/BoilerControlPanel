@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boilercontrolpanel.Main_menu_controller">
+   <children>
+      <ImageView fitHeight="608.0" fitWidth="1068.0" layoutX="-84.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-9.41876220703125" AnchorPane.leftAnchor="-84.0" AnchorPane.rightAnchor="-84.0" AnchorPane.topAnchor="7.0">
+         <image>
+            <Image url="@bania4.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="bt1" layoutX="172.0" layoutY="478.0" mnemonicParsing="false" onAction="#bt1_click" prefHeight="93.0" prefWidth="188.0" text="Управление горелкой №1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt2" layoutX="549.0" layoutY="478.0" mnemonicParsing="false" onAction="#bt2_click" prefHeight="93.0" prefWidth="188.0" text="Управление горелкой №2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="172.0" layoutY="14.0" text="Консоль управления котельной Баня №4" textFill="#e40b0b">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="578.0" text="Версия 1.0 (beta). Разработчик : электроцех , мастер ЭМРиСОДК Леган А.С." textFill="#eee652" />
+   </children>
+</AnchorPane>

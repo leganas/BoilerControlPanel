@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boilercontrolpanel.Boiler_control_Controller">
+   <children>
+      <WebView fx:id="web_view" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ProgressBar fx:id="prbar" layoutX="245.0" layoutY="300.0" prefHeight="18.0" prefWidth="478.0" progress="0.0" />
+      <Label fx:id="label" layoutX="306.0" layoutY="272.0" text="Подключение к серверу системы EcoNet">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" layoutX="64.0" layoutY="559.0" text="скорость работы сервера управления не фонтан,по этому расслабтесь и получайте удовольствие , среднее время подключения до 1минуты" />
+   </children>
+</AnchorPane>
